@@ -1,11 +1,8 @@
 def display_board
-  row_one = "   |   |   "
-  row_two = "-----------"
-  puts row_one
-  puts row_two
-  puts row_one
-  puts row_two
-  puts row_one
-  puts row_two
-  puts row_one
+  rows = ["   |   |   ", "-----------"]
+  rows[0]
+  rows[1]
+  rows[0]
+  rows[1]
+  rows[0]
 end
